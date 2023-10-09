@@ -1,0 +1,61 @@
+.itemContainer {
+  border: 1px solid #c3caea;
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.itemContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.simbol {
+  background-color: #10b981;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-right: 10px;
+  color: white;
+}
+.password {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.website {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+.username {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.stars {
+  width: 170px;
+}
+.delete {
+  width: 24px;
+  height: 27px;
+}
+.deleteBtn {
+  width: 24px;
+  height: 27px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+}

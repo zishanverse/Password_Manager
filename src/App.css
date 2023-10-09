@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  min-height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.logo {
+  width: 200px;
+  margin-bottom: 25px;
+}
+
+.card {
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 20px 1px black;
+}
+
+.loginImg {
+  width: 80%;
+  order: 1;
+  margin-bottom: 20px;
+}
+
+.formCard {
+  order: 2;
+  background-color: #454f84;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.heading {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.InputCard {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  border: 1px solid #94a3b8;
+  background-color: #f8fafc;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+
+.symbol {
+  width: 25px;
+  margin: 15px;
+}
+.input {
+  height: 58px;
+  width: 80%;
+  border: 0px;
+  border-left: 1px solid #94a3b8;
+  background-color: #f8fafc;
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+.btn {
+  background-color: #0b69ff;
+  color: white;
+  border-radius: 7px;
+  border: 0px;
+  align-self: flex-end;
+  height: 40px;
+  width: 70px;
+  font-size: 15px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.passWordCountCard {
+  display: flex;
+  align-items: center;
+}
+.pass {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 19px;
+  margin-right: 10px;
+}
+.count {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 0px;
+  width: 30px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.searchCard {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  height: 35px;
+  border-radius: 5px;
+}
+.search {
+  width: 23px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.searchInput {
+  height: 35px;
+  border: 0px;
+  border-left: 1px solid;
+  padding-left: 10px;
+  font-size: 15px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  outline: none;
+}
+
+.line {
+  height: 2px;
+  background-color: #7683cb;
+  width: 100%;
+  border: 0px;
+}
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+.showPassCard {
+  display: flex;
+}
+.checkbox {
+  width: 20px;
+  margin-right: 10px;
+}
+.showPassword {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: bold;
+}
+.noPassWordContainer {
+  display: flex;
+  justify-content: center;
+}
+.nopass {
+  width: 80%;
+}
+.passWordContainer {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.noPassWordContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nopassword {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .mediumCard {
+    flex-direction: row;
+  }
+  .loginImg {
+    order: 2;
+    width: 50%;
+  }
+  .formCard {
+    order: 1;
+  }
+  .passWordContainer {
+    flex-direction: row;
+  }
+}
